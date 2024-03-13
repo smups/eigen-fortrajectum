@@ -8,6 +8,6 @@ pub fn build(b: *std.Build) !void {
         .target = b.standardTargetOptions(.{}),
         .optimize = b.standardOptimizeOption(.{}) 
     });
-    eigen.installHeadersDirectory("Eigen", "");
+    eigen.installHeadersDirectory("Eigen", "Eigen");
     b.installArtifact(eigen);
 }
