@@ -1,0 +1,9 @@
+.{
+	.name = "eigen",
+	.version = "3.4.0",
+	.paths = .{
+		"Eigen",
+		"build.zig",
+		"build.zig.zon"	
+	}	
+}
